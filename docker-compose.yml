@@ -1,0 +1,35 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGO_URI=${MONGO_URI_ENV}
+    volumes:
+      - ./logs:/app/logs  # Mount logs directory to host
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.10.0
+    environment:
+      - discovery.type=single-node
+    ports:
+      - "9200:9200"
+
+  filebeat:
+    image: docker.elastic.co/beats/filebeat:7.10.0
+    volumes:
+      - ./logs:/logs  # Mount logs directory into Filebeat
+      - ./filebeat.yml:/usr/share/filebeat/filebeat.yml
+    depends_on:
+      - app
+      - elasticsearch
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.10.0
+    ports:
+      - "5601:5601"
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    depends_on:
+      - elasticsearch

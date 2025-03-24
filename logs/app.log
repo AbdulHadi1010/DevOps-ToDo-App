@@ -1,2 +1,76 @@
 {"level":"info","message":"Task created","task":{"__v":0,"_id":"67e11ceb361e9be67117cfbb","completed":false,"description":"Description","title":"Task 1"}}
 {"count":1,"level":"info","message":"Tasks retrieved"}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13b12166c70987903346b","title":"Task 5"}}
+{"count":16,"level":"info","message":"Tasks find","operation":"find"}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13bd7166c70987903346e","title":"Task 5"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13bd7166c709879033470","title":"Task 5"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13bd8166c709879033472","title":"Task 5"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13bd8166c709879033474","title":"Task 5"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13bd8166c709879033476","title":"Task 5"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13bd9166c709879033478","title":"Task 5"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13cef166c70987903347a","title":"Task_491"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13cf2166c70987903347c","title":"Task_625"}}
+{"count":24,"level":"info","message":"Tasks find","operation":"find"}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13cf8166c70987903347f","title":"Task_834"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13dbe166c709879033481","title":"Task_839"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13dc0166c709879033483","title":"Task_777"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13dc1166c709879033485","title":"Task_207"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13dc2166c709879033487","title":"Task_975"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13dc4166c709879033489","title":"Task_407"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13dc5166c70987903348b","title":"Task_36"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13dc6166c70987903348d","title":"Task_79"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13dc7166c70987903348f","title":"Task_314"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13dc8166c709879033491","title":"Task_264"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13dca166c709879033493","title":"Task_213"}}
+{"count":35,"level":"info","message":"Tasks find","operation":"find"}
+{"id":"67e13dbe166c709879033481","level":"info","message":"Task updated","operation":"update","task":{"__v":0,"_id":"67e13dbe166c709879033481","title":"Task_33"}}
+{"id":"67e13dc0166c709879033483","level":"info","message":"Task updated","operation":"update","task":{"__v":0,"_id":"67e13dc0166c709879033483","title":"Task_491"}}
+{"id":"67e13dc1166c709879033485","level":"info","message":"Task updated","operation":"update","task":{"__v":0,"_id":"67e13dc1166c709879033485","title":"Task_83"}}
+{"id":"67e13dc2166c709879033487","level":"info","message":"Task updated","operation":"update","task":{"__v":0,"_id":"67e13dc2166c709879033487","title":"Task_641"}}
+{"id":"67e13dc4166c709879033489","level":"info","message":"Task updated","operation":"update","task":{"__v":0,"_id":"67e13dc4166c709879033489","title":"Task_930"}}
+{"id":"67e13dc5166c70987903348b","level":"info","message":"Task updated","operation":"update","task":{"__v":0,"_id":"67e13dc5166c70987903348b","title":"Task_572"}}
+{"id":"67e13dc6166c70987903348d","level":"info","message":"Task updated","operation":"update","task":{"__v":0,"_id":"67e13dc6166c70987903348d","title":"Task_500"}}
+{"id":"67e13dc7166c70987903348f","level":"info","message":"Task updated","operation":"update","task":{"__v":0,"_id":"67e13dc7166c70987903348f","title":"Task_610"}}
+{"id":"67e13dc8166c709879033491","level":"info","message":"Task updated","operation":"update","task":{"__v":0,"_id":"67e13dc8166c709879033491","title":"Task_661"}}
+{"id":"67e13dca166c709879033493","level":"info","message":"Task updated","operation":"update","task":{"__v":0,"_id":"67e13dca166c709879033493","title":"Task_488"}}
+{"id":"67e13dbe166c709879033481","level":"info","message":"Task deleted","operation":"delete"}
+{"id":"67e13dc0166c709879033483","level":"info","message":"Task deleted","operation":"delete"}
+{"id":"67e13dc1166c709879033485","level":"info","message":"Task deleted","operation":"delete"}
+{"id":"67e13dc2166c709879033487","level":"info","message":"Task deleted","operation":"delete"}
+{"id":"67e13dc4166c709879033489","level":"info","message":"Task deleted","operation":"delete"}
+{"id":"67e13dc5166c70987903348b","level":"info","message":"Task deleted","operation":"delete"}
+{"id":"67e13dc6166c70987903348d","level":"info","message":"Task deleted","operation":"delete"}
+{"id":"67e13dc7166c70987903348f","level":"info","message":"Task deleted","operation":"delete"}
+{"id":"67e13dc8166c709879033491","level":"info","message":"Task deleted","operation":"delete"}
+{"id":"67e13dca166c709879033493","level":"info","message":"Task deleted","operation":"delete"}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13e1d166c7098790334aa","title":"Task_731"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13e1e166c7098790334ac","title":"Task_360"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13e1f166c7098790334ae","title":"Task_384"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13e21166c7098790334b0","title":"Task_788"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13e22166c7098790334b2","title":"Task_450"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13e23166c7098790334b4","title":"Task_117"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13e24166c7098790334b6","title":"Task_191"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13e25166c7098790334b8","title":"Task_671"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13e27166c7098790334ba","title":"Task_157"}}
+{"level":"info","message":"Task created","operation":"create","task":{"__v":0,"_id":"67e13e28166c7098790334bc","title":"Task_900"}}
+{"count":35,"level":"info","message":"Tasks find","operation":"find"}
+{"id":"67e13e1d166c7098790334aa","level":"info","message":"Task updated","operation":"update","task":{"__v":0,"_id":"67e13e1d166c7098790334aa","title":"Task_658"}}
+{"id":"67e13e1e166c7098790334ac","level":"info","message":"Task updated","operation":"update","task":{"__v":0,"_id":"67e13e1e166c7098790334ac","title":"Task_99"}}
+{"id":"67e13e1f166c7098790334ae","level":"info","message":"Task updated","operation":"update","task":{"__v":0,"_id":"67e13e1f166c7098790334ae","title":"Task_802"}}
+{"id":"67e13e21166c7098790334b0","level":"info","message":"Task updated","operation":"update","task":{"__v":0,"_id":"67e13e21166c7098790334b0","title":"Task_982"}}
+{"id":"67e13e22166c7098790334b2","level":"info","message":"Task updated","operation":"update","task":{"__v":0,"_id":"67e13e22166c7098790334b2","title":"Task_774"}}
+{"id":"67e13e23166c7098790334b4","level":"info","message":"Task updated","operation":"update","task":{"__v":0,"_id":"67e13e23166c7098790334b4","title":"Task_944"}}
+{"id":"67e13e24166c7098790334b6","level":"info","message":"Task updated","operation":"update","task":{"__v":0,"_id":"67e13e24166c7098790334b6","title":"Task_430"}}
+{"id":"67e13e25166c7098790334b8","level":"info","message":"Task updated","operation":"update","task":{"__v":0,"_id":"67e13e25166c7098790334b8","title":"Task_663"}}
+{"id":"67e13e27166c7098790334ba","level":"info","message":"Task updated","operation":"update","task":{"__v":0,"_id":"67e13e27166c7098790334ba","title":"Task_628"}}
+{"id":"67e13e28166c7098790334bc","level":"info","message":"Task updated","operation":"update","task":{"__v":0,"_id":"67e13e28166c7098790334bc","title":"Task_105"}}
+{"id":"67e13e1d166c7098790334aa","level":"info","message":"Task deleted","operation":"delete"}
+{"id":"67e13e1e166c7098790334ac","level":"info","message":"Task deleted","operation":"delete"}
+{"id":"67e13e1f166c7098790334ae","level":"info","message":"Task deleted","operation":"delete"}
+{"id":"67e13e21166c7098790334b0","level":"info","message":"Task deleted","operation":"delete"}
+{"id":"67e13e22166c7098790334b2","level":"info","message":"Task deleted","operation":"delete"}
+{"id":"67e13e23166c7098790334b4","level":"info","message":"Task deleted","operation":"delete"}
+{"id":"67e13e24166c7098790334b6","level":"info","message":"Task deleted","operation":"delete"}
+{"id":"67e13e25166c7098790334b8","level":"info","message":"Task deleted","operation":"delete"}
+{"id":"67e13e27166c7098790334ba","level":"info","message":"Task deleted","operation":"delete"}
+{"id":"67e13e28166c7098790334bc","level":"info","message":"Task deleted","operation":"delete"}

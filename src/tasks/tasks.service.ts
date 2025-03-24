@@ -11,13 +11,13 @@ export class TasksService {
   async create(task: Task): Promise<Task> {
     const createdTask = new this.taskModel(task);
     const result = await createdTask.save();
-    logger.info('Task created', { task: result });
-    return createdTask.save();
+    logger.info('Task created', { operation: 'create', task: result });
+    return result;
   }
 
   async findAll(): Promise<Task[]> {
     const tasks = await this.taskModel.find().exec();
-    logger.info('Tasks retrieved', { count: tasks.length });
+    logger.info('Tasks find', {operation: 'find', count: tasks.length });
     return tasks;
   }
 
@@ -28,7 +28,7 @@ async findOne(id: string): Promise<Task> {
         logger.error(`Task with ID ${id} not found`)
       throw new NotFoundException(`Task with ID ${id} not found`);
     }else{
-        logger.info('Task retrieved', { id });
+        logger.info('Task retrieved', {operation: 'retrieve',  id });
     }
     
     return task;
@@ -40,7 +40,7 @@ async findOne(id: string): Promise<Task> {
         logger.error(`Task with ID ${id} not found`)
       throw new NotFoundException(`Task with ID ${id} not found`);
     }else{
-        logger.info('Task updated', { id, task: updatedTask });
+        logger.info('Task updated', {operation: 'update', id, task: updatedTask });
     }
     return updatedTask;
   }
@@ -52,7 +52,7 @@ async findOne(id: string): Promise<Task> {
       throw new NotFoundException(`Task with ID ${id} not found`);
       
     }else{
-        logger.info('Task deleted', { id });
+        logger.info('Task deleted', {operation: 'delete', id });
     }
     return deletedTask;
   }
